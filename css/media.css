@@ -1,0 +1,84 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 986px;
+  }
+}
+
+@media (max-width: 1035px) {
+  .nav .nav__menu {
+    flex-direction: column;
+  }
+
+  .nav .toggle__icon {
+    display: block;
+  }
+
+  .nav .nav__items,
+  .nav .social {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav .nav__items {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav .nav__items .nav__link {
+    padding: 1rem 0;
+  }
+
+  .pancakes__photo {
+    min-height: 250px;
+  }
+
+  .pancakes__decor {
+    display: none;
+  }
+
+  .hero .hero__title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero .hero__title {
+    font-size: 55px;
+  }
+
+  .hero .hero__desc {
+    font-size: 20px;
+  }
+
+  .divider {
+    background-size: 75%;
+    margin: -68px auto;
+  }
+
+  .art-of-cakes .art-images .art-images__print {
+    font-size: 4vw;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 474px) {
+  .breakfast .breakfast__sheet {
+    height: 120vw;
+    margin-top: 12%;
+  }
+
+  .breakfast .breakfast__sheet-title {
+    font-size: 8vw;
+    line-height: 40px;
+  }
+
+  .breakfast .breakfast__sheet-desc {
+    line-height: 25px;
+  }
+
+  .breakfast .breakfast__sheet-btn {
+    font-size: 16px;
+    padding: 2% 20%;
+  }
+}
+
